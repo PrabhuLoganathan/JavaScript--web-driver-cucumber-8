@@ -8,3 +8,7 @@ Feature: Running Cucumber with Protractor
     When I add "Be Awesome" in the task field
     And I click the add button
     Then I should see my new task in the list
+
+  Scenario: Angular Page Test
+    Given I go to "https://angular.io/"
+    Then I should see One Framework Displayed

@@ -1,8 +1,8 @@
 //protractor.conf.js
 exports.config = {
   seleniumAddress: 'http://127.0.0.1:4444/wd/hub',
-  getPageTimeout: 600000,
-  allScriptsTimeout: 5000000,
+  getPageTimeout: 6000,
+  allScriptsTimeout: 5000,
   framework: 'custom',
   // path relative to the current config file
   frameworkPath: require.resolve('protractor-cucumber-framework'),
@@ -20,7 +20,7 @@ exports.config = {
 
   cucumberOpts: {
     //require: 'features/step_definitions/*.steps.js',
-    require: 'features/stepDefinitions.js',
+    require: 'features/step_definitions/*.js',
     tags: false,
     format: 'pretty',
     profile: false,

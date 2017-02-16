@@ -26,4 +26,11 @@ module.exports = function() {
     expect(todoList.get(2).getText()).to.eventually.equal('Be Awesome');
     callback();
   });
+
+//Angular IO Page
+  this.Then(/^I should see One Framework Displayed$/, function (callback) {
+     var pageTitle = browser.getTitle();
+     expect(pageTitle).to.eventually.equal('One framework. - Angular');
+     callback();
+  });
 };
