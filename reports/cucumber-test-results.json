@@ -14,11 +14,11 @@
             "name": "I go to \"https://angularjs.org/\"",
             "result": {
               "status": "passed",
-              "duration": 6952533
+              "duration": 1854293
             },
             "line": 7,
             "match": {
-              "location": "C:\\Users\\Devinder\\Documents\\Protractor\\features\\step_definitions\\stepDefinitions.js:9"
+              "location": "C:\\Users\\Devinder\\Documents\\Protractor\\features\\step_definitions\\stepDefinitions.js:13"
             }
           },
           {
@@ -27,11 +27,11 @@
             "name": "I add \"Be Awesome\" in the task field",
             "result": {
               "status": "passed",
-              "duration": 5372160
+              "duration": 7323961173
             },
             "line": 8,
             "match": {
-              "location": "C:\\Users\\Devinder\\Documents\\Protractor\\features\\step_definitions\\stepDefinitions.js:13"
+              "location": "C:\\Users\\Devinder\\Documents\\Protractor\\features\\step_definitions\\stepDefinitions.js:17"
             }
           },
           {
@@ -40,11 +40,11 @@
             "name": "I click the add button",
             "result": {
               "status": "passed",
-              "duration": 2371840
+              "duration": 661334
             },
             "line": 9,
             "match": {
-              "location": "C:\\Users\\Devinder\\Documents\\Protractor\\features\\step_definitions\\stepDefinitions.js:18"
+              "location": "C:\\Users\\Devinder\\Documents\\Protractor\\features\\step_definitions\\stepDefinitions.js:22"
             }
           },
           {
@@ -53,11 +53,11 @@
             "name": "I should see my new task in the list",
             "result": {
               "status": "passed",
-              "duration": 8061013
+              "duration": 2387200
             },
             "line": 10,
             "match": {
-              "location": "C:\\Users\\Devinder\\Documents\\Protractor\\features\\step_definitions\\stepDefinitions.js:24"
+              "location": "C:\\Users\\Devinder\\Documents\\Protractor\\features\\step_definitions\\stepDefinitions.js:28"
             }
           }
         ],
@@ -76,11 +76,11 @@
             "name": "I go to \"https://angular.io/\"",
             "result": {
               "status": "passed",
-              "duration": 1858987
+              "duration": 561920
             },
             "line": 13,
             "match": {
-              "location": "C:\\Users\\Devinder\\Documents\\Protractor\\features\\step_definitions\\stepDefinitions.js:9"
+              "location": "C:\\Users\\Devinder\\Documents\\Protractor\\features\\step_definitions\\stepDefinitions.js:13"
             }
           },
           {
@@ -89,11 +89,11 @@
             "name": "I should see One Framework Displayed",
             "result": {
               "status": "passed",
-              "duration": 1879467
+              "duration": 401494
             },
             "line": 14,
             "match": {
-              "location": "C:\\Users\\Devinder\\Documents\\Protractor\\features\\step_definitions\\stepDefinitions.js:32"
+              "location": "C:\\Users\\Devinder\\Documents\\Protractor\\features\\step_definitions\\stepDefinitions.js:36"
             }
           }
         ],

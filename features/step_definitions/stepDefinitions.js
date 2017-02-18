@@ -1,3 +1,5 @@
+var HomePage = require('../../pages/homePage');
+
 var chai = require('chai');
 var chaiAsPromised = require('chai-as-promised');
 
@@ -5,14 +7,16 @@ chai.use(chaiAsPromised);
 var expect = chai.expect;
 
 var homePage = function(){
+
+  var angularPage = new HomePage();
 //module.exports = function() {
   this.Given(/^I go to "([^"]*)"$/, function(site) {
     browser.get(site);
   });
 
-  this.When(/^I add "([^"]*)" in the task field$/, function(task,callback) {
-    element(by.model('todoList.todoText')).sendKeys(task);
-    callback();
+  this.When(/^I add "([^"]*)" in the task field$/, function(task) {
+    return angularPage.todoList.sendKeys(task);
+  
   });
 
   this.When(/^I click the add button$/, function(callback) {

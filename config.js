@@ -23,6 +23,7 @@ exports.config = {
     require: [
         'features/step_definitions/*.js',
         'features/support/hook.js',
+        'features/support/env.js'
 
     ],
 
