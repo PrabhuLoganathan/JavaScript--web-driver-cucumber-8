@@ -4,7 +4,8 @@ var chaiAsPromised = require('chai-as-promised');
 chai.use(chaiAsPromised);
 var expect = chai.expect;
 
-module.exports = function() {
+var homePage = function(){
+//module.exports = function() {
   this.Given(/^I go to "([^"]*)"$/, function(site) {
     browser.get(site);
   });
@@ -34,3 +35,5 @@ module.exports = function() {
      callback();
   });
 };
+
+module.exports = homePage;
