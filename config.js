@@ -1,3 +1,8 @@
+var chai = require('chai');
+var chaiAsPromised = require('chai-as-promised');
+chai.use(chaiAsPromised);
+
+
 //protractor.conf.js
 exports.config = {
   seleniumAddress: 'http://127.0.0.1:4444/wd/hub',
@@ -17,6 +22,12 @@ exports.config = {
 
 
   baseURL: 'http://localhost:8080/',
+
+  onPrepare: function () {
+      
+          browser.manage().window().maximize();
+          global.expect = chai.expect;
+      },
 
   cucumberOpts: {
     //require: 'features/step_definitions/*.steps.js',

@@ -14,7 +14,7 @@
             "name": "I go to \"https://angularjs.org/\"",
             "result": {
               "status": "passed",
-              "duration": 1953280
+              "duration": 1712213
             },
             "line": 7,
             "match": {
@@ -27,7 +27,7 @@
             "name": "I add \"Be Awesome\" in the task field",
             "result": {
               "status": "passed",
-              "duration": 7978716586
+              "duration": 8318544213
             },
             "line": 8,
             "match": {
@@ -40,7 +40,7 @@
             "name": "I click the add button",
             "result": {
               "status": "passed",
-              "duration": 937387
+              "duration": 859734
             },
             "line": 9,
             "match": {
@@ -53,7 +53,7 @@
             "name": "I should see my new task in the list",
             "result": {
               "status": "passed",
-              "duration": 6376534
+              "duration": 5716907
             },
             "line": 10,
             "match": {
@@ -76,7 +76,7 @@
             "name": "I go to \"https://angular.io/\"",
             "result": {
               "status": "passed",
-              "duration": 592213
+              "duration": 485973
             },
             "line": 13,
             "match": {
@@ -89,7 +89,7 @@
             "name": "I should see One Framework Displayed",
             "result": {
               "status": "passed",
-              "duration": 339626
+              "duration": 327253
             },
             "line": 14,
             "match": {
