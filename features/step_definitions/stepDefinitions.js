@@ -16,13 +16,13 @@ var homePage = function(){
 
   this.When(/^I add "([^"]*)" in the task field$/, function(task) {
     return angularPage.todoList.sendKeys(task);
-  
+
   });
 
-  this.When(/^I click the add button$/, function(callback) {
+  this.When(/^I click the add button$/, function() {
     var el = element(by.css('[value="add"]'));
     el.click();
-    callback();
+
   });
 
   this.Then(/^I should see my new task in the list$/, function(callback) {
