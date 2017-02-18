@@ -20,7 +20,13 @@ exports.config = {
 
   cucumberOpts: {
     //require: 'features/step_definitions/*.steps.js',
-    require: 'features/step_definitions/*.js',
+    require: [
+        'features/step_definitions/*.js',
+        'features/support/hook.js',
+
+    ],
+
+    format: ['json:reports/cucumber-test-results.json', 'pretty'],
     tags: false,
     format: 'pretty',
     profile: false,

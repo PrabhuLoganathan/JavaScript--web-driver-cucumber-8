@@ -39,5 +39,8 @@
     "behaviour driven development",
     "bdd",
     "selenium"
-  ]
+  ],
+  "devDependencies": {
+    "grunt-protractor-cucumber-html-report": "^0.2.8"
+  }
 }
