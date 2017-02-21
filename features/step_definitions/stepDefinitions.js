@@ -6,6 +6,7 @@ var homePage = function(){
 //module.exports = function() {
   this.Given(/^I go to "([^"]*)"$/, function(site) {
     browser.get(site);
+
   });
 
   this.When(/^I add "([^"]*)" in the task field$/, function(task) {
@@ -21,15 +22,15 @@ var homePage = function(){
 
   this.Then(/^I should see my new task in the list$/, function(callback) {
     var todoList = element.all(by.repeater('todo in todoList.todos'));
-    expect(todoList.count()).to.eventually.equal(3);
-    expect(todoList.get(2).getText()).to.eventually.equal('Be Awesome');
+    expect(todoList.count()).to.eventually.equal(2);
+    expect(todoList.get(2).getText()).to.eventually.equal('Do Not Be Awesome').and.notify();
     callback();
   });
 
 //Angular IO Page
-  this.Then(/^I should see One Framework Displayed$/, function (callback) {
+  this.Then(/^I should see One Framework Displayed$/, function () {
      var pageTitle = browser.getTitle();
-     expect(pageTitle).to.eventually.equal('One framework. - Angular');
+     return expect(pageTitle).to.eventually.equal('Two framework. - Angular');
      callback();
   });
 };

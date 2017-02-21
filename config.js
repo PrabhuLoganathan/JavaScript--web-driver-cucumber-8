@@ -24,7 +24,7 @@ exports.config = {
   baseURL: 'http://localhost:8080/',
 
   onPrepare: function () {
-      
+
           browser.manage().window().maximize();
           global.expect = chai.expect;
       },
@@ -34,12 +34,14 @@ exports.config = {
     require: [
         'features/step_definitions/*.js',
         'features/support/hook.js',
-        'features/support/env.js'
+        'features/support/env.js',
+        'features/support/hookhtml.js'
+
 
     ],
 
     format: ['json:reports/cucumber-test-results.json', 'pretty'],
-    tags: false,
+    tags: '@ProtractorScenario',
     format: 'pretty',
     profile: false,
     'no-source': true

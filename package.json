@@ -41,6 +41,7 @@
     "selenium"
   ],
   "devDependencies": {
+    "cucumber-html-reporter": "^0.3.7",
     "grunt-protractor-cucumber-html-report": "^0.2.8"
   }
 }

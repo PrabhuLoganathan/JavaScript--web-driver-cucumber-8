@@ -24,7 +24,7 @@ module.exports = function(grunt) {
   'protractor-cucumber-html-report': {
     default_options: {
       options: {
-        dest: 'reports',//Where you want to generate the HTML report.
+        dest: './reports/results',//Where you want to generate the HTML report.
         output: 'report.html',//File Name
         testJSONDirectory: 'reports'//Mention where you have generated JSON format.
       }
