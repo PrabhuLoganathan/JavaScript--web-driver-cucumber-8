@@ -6,13 +6,13 @@ chai.use(chaiAsPromised);
 //protractor.conf.js
 exports.config = {
   seleniumAddress: 'http://127.0.0.1:4444/wd/hub',
-  getPageTimeout: 6000,
-  allScriptsTimeout: 5000,
+  getPageTimeout: 60000,
+  allScriptsTimeout: 60000,
   framework: 'custom',
   // path relative to the current config file
   frameworkPath: require.resolve('protractor-cucumber-framework'),
   capabilities: {
-    'browserName': 'chrome'
+    'browserName': 'firefox'
   },
 
   // Spec patterns are relative to this directory.
