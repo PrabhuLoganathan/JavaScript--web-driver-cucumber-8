@@ -22,17 +22,12 @@ exports.config = {
 
 
   baseURL: 'http://localhost:8080/',
-
+   resultJsonOutputFile: './reports/json/protractor_report.json',
   onPrepare: function () {
 
           browser.manage().window().maximize();
           global.expect = chai.expect;
       },
-
-
-
-
-
 
   cucumberOpts: {
     //require: 'features/step_definitions/*.steps.js',
@@ -42,11 +37,10 @@ exports.config = {
         'features/support/env.js',
         //'features/support/hookhtml.js'
 
-
     ],
 
     format: ['json:reports/cucumber-test-results.json', 'pretty'],
-    tags: '@AddNewTask,@AngularPage',
+    tags: '@ProtractorScenario',
     format: 'pretty',
     profile: false,
     'no-source': true

@@ -20,18 +20,17 @@ var homePage = function(){
 
   });
 
-  this.Then(/^I should see my new task in the list$/, function(callback) {
+ this.Then(/^I should see my "([^"]*)" in the list$/, function (inputText) {
     var todoList = element.all(by.repeater('todo in todoList.todos'));
-    expect(todoList.count()).to.eventually.equal(2);
-    expect(todoList.get(2).getText()).to.eventually.equal('Do Not Be Awesome').and.notify();
-    callback();
+    //return expect(todoList.count()).to.eventually.equal(3);
+    return expect(todoList.get(2).getText()).to.eventually.equal(inputText)
+    //callback();
   });
 
 //Angular IO Page
   this.Then(/^I should see One Framework Displayed$/, function () {
      var pageTitle = browser.getTitle();
-     return expect(pageTitle).to.eventually.equal('Two framework. - Angular');
-     callback();
+     return expect(pageTitle).to.eventually.equal('One framework. - Angular');
   });
 };
 

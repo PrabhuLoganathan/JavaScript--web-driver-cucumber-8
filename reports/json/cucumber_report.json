@@ -3,9 +3,144 @@
     "description": "  As a user of Protractor\n  I should be able to use Cucumber\n  In order to run my E2E tests",
     "elements": [
       {
+        "id": "running-cucumber-with-protractor;protractor-and-cucumber-test",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Protractor and Cucumber Test",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I go to \"https://angularjs.org/\"",
+            "result": {
+              "status": "passed",
+              "duration": 1870933
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\Devinder\\Documents\\Protractor\\features\\step_definitions\\stepDefinitions.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I add \"Be Awesome\" in the task field",
+            "result": {
+              "status": "passed",
+              "duration": 11460591786
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\Devinder\\Documents\\Protractor\\features\\step_definitions\\stepDefinitions.js:12"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click the add button",
+            "result": {
+              "status": "passed",
+              "duration": 847360
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\Devinder\\Documents\\Protractor\\features\\step_definitions\\stepDefinitions.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see my \"Be Awesome\" in the list",
+            "result": {
+              "status": "passed",
+              "duration": 240651093
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\Users\\Devinder\\Documents\\Protractor\\features\\step_definitions\\stepDefinitions.js:23"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddNewTask",
+            "line": 6
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "running-cucumber-with-protractor;protractor-and-cucumber-test",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Protractor and Cucumber Test",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I go to \"https://angularjs.org/\"",
+            "result": {
+              "status": "passed",
+              "duration": 404053
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\Devinder\\Documents\\Protractor\\features\\step_definitions\\stepDefinitions.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I add \"Be Cool\" in the task field",
+            "result": {
+              "status": "passed",
+              "duration": 2533899947
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\Devinder\\Documents\\Protractor\\features\\step_definitions\\stepDefinitions.js:12"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click the add button",
+            "result": {
+              "status": "passed",
+              "duration": 1261227
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\Devinder\\Documents\\Protractor\\features\\step_definitions\\stepDefinitions.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see my \"Be Awesome\" in the list",
+            "result": {
+              "status": "failed",
+              "duration": 250545066,
+              "error_message": "AssertionError: expected 'Be Cool' to equal 'Be Awesome'"
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\Users\\Devinder\\Documents\\Protractor\\features\\step_definitions\\stepDefinitions.js:23"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddNewTask",
+            "line": 6
+          }
+        ],
+        "type": "scenario"
+      },
+      {
         "id": "running-cucumber-with-protractor;angular-page-test",
         "keyword": "Scenario",
-        "line": 13,
+        "line": 18,
         "name": "Angular Page Test",
         "steps": [
           {
@@ -14,9 +149,9 @@
             "name": "I go to \"https://angular.io/\"",
             "result": {
               "status": "passed",
-              "duration": 2788693
+              "duration": 474453
             },
-            "line": 14,
+            "line": 19,
             "match": {
               "location": "C:\\Users\\Devinder\\Documents\\Protractor\\features\\step_definitions\\stepDefinitions.js:7"
             }
@@ -26,11 +161,10 @@
             "keyword": "Then ",
             "name": "I should see One Framework Displayed",
             "result": {
-              "status": "failed",
-              "duration": 6182871467,
-              "error_message": "AssertionError: expected 'One framework. - Angular' to equal 'Two framework. - Angular'"
+              "status": "passed",
+              "duration": 2806160213
             },
-            "line": 15,
+            "line": 20,
             "match": {
               "location": "C:\\Users\\Devinder\\Documents\\Protractor\\features\\step_definitions\\stepDefinitions.js:31"
             }
@@ -38,8 +172,8 @@
         ],
         "tags": [
           {
-            "name": "@ProtractorScenario",
-            "line": 12
+            "name": "@AngularPage",
+            "line": 17
           }
         ],
         "type": "scenario"
