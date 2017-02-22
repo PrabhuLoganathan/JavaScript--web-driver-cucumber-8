@@ -1,0 +1,12 @@
+# Protractor Selenium Cucumber
+
+Basic useful feature list:
+
+ ### Install
+ * npm install
+
+ ### Run Test
+ * protractor config.js
+
+ ### View reports
+ * /reports/html/cucumber_report.html
