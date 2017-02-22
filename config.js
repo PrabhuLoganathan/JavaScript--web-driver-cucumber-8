@@ -29,13 +29,18 @@ exports.config = {
           global.expect = chai.expect;
       },
 
+
+
+
+
+
   cucumberOpts: {
     //require: 'features/step_definitions/*.steps.js',
     require: [
         'features/step_definitions/*.js',
         'features/support/hook.js',
         'features/support/env.js',
-        'features/support/hookhtml.js'
+        //'features/support/hookhtml.js'
 
 
     ],
