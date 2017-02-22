@@ -14,7 +14,7 @@
             "name": "I go to \"https://angular.io/\"",
             "result": {
               "status": "passed",
-              "duration": 2016000
+              "duration": 2788693
             },
             "line": 14,
             "match": {
@@ -27,7 +27,7 @@
             "name": "I should see One Framework Displayed",
             "result": {
               "status": "failed",
-              "duration": 5594179840,
+              "duration": 6182871467,
               "error_message": "AssertionError: expected 'One framework. - Angular' to equal 'Two framework. - Angular'"
             },
             "line": 15,
