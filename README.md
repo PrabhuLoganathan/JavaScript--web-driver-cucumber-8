@@ -1,7 +1,5 @@
 # Protractor Selenium Cucumber
 
-Basic useful feature list:
-
  ### Install
  * npm install
 
