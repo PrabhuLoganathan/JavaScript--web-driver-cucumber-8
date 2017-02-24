@@ -1,10 +1,11 @@
 # Protractor Selenium Cucumber
+#
+# Checkout from Git
+* Select a folder (Windows) or Mac.
+* git clone https://github.com/devinbhullar/protractor-cucumber.git
 
- ### Install
+## Install Dependencies from package.json file
  * npm install
 
- ### Run Test
- * protractor config.js
-
- ### View reports
- * /reports/html/cucumber_report.html
+## Run Test
+ * npm test
