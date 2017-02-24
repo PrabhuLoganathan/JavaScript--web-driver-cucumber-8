@@ -1,9 +1,9 @@
 {
-  "name": "protractor-cucumber-allure",
+  "name": "protractor-cucumber",
   "version": "1.0.0",
   "license": "MIT",
-  "description": "To demostrate protractor cucumber tests for angular/non angular apps with allure report framework",
-  "homepage": "https://github.com/igniteram/protractor-cucumber-allure",
+  "description": "To demostrate protractor cucumber tests for angular with reports",
+  "homepage": "https://github.com/devinbhullar/protractor-cucumber",
   "keywords": [
     "protractor",
     "cucumber",
@@ -24,7 +24,7 @@
     "test": "protractor config.js",
     "start": "webdriver-manager start"
   },
-  "author": "Ram Pasala <ram.pasala7@gmail.com>",
+  "author": "Devinder Singh <devinbhullar@gmail.com>",
   "dependencies": {
     "chai": "^3.5.0",
     "protractor": ">=1.6.0",
@@ -41,6 +41,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/igniteram/protractor-cucumber-allure"
+    "url": "https://github.com/devinbhullar/protractor-cucumber"
   }
 }
