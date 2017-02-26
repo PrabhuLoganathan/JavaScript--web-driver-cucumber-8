@@ -14,11 +14,7 @@
             "name": "I go to \"https://angularjs.org/\"",
             "result": {
               "status": "passed",
-<<<<<<< HEAD
-              "duration": 11531535
-=======
-              "duration": 6510933
->>>>>>> 666f81f629596b162beb0f534ff7fb5c50f05587
+              "duration": 2466989
             },
             "line": 8,
             "match": {
@@ -31,11 +27,7 @@
             "name": "I add \"Be Awesome\" in the task field",
             "result": {
               "status": "passed",
-<<<<<<< HEAD
-              "duration": 13455570503
-=======
-              "duration": 12740039680
->>>>>>> 666f81f629596b162beb0f534ff7fb5c50f05587
+              "duration": 10788931570
             },
             "line": 9,
             "match": {
@@ -48,11 +40,7 @@
             "name": "I click the add button",
             "result": {
               "status": "passed",
-<<<<<<< HEAD
-              "duration": 5059847
-=======
-              "duration": 2701227
->>>>>>> 666f81f629596b162beb0f534ff7fb5c50f05587
+              "duration": 1290242
             },
             "line": 10,
             "match": {
@@ -65,11 +53,7 @@
             "name": "I should see my \"Be Awesome\" in the list",
             "result": {
               "status": "passed",
-<<<<<<< HEAD
-              "duration": 550884119
-=======
-              "duration": 688951467
->>>>>>> 666f81f629596b162beb0f534ff7fb5c50f05587
+              "duration": 225687755
             },
             "line": 11,
             "match": {
@@ -97,11 +81,7 @@
             "name": "I go to \"https://angularjs.org/\"",
             "result": {
               "status": "passed",
-<<<<<<< HEAD
-              "duration": 10369720
-=======
-              "duration": 2577920
->>>>>>> 666f81f629596b162beb0f534ff7fb5c50f05587
+              "duration": 406613
             },
             "line": 8,
             "match": {
@@ -114,11 +94,7 @@
             "name": "I add \"Be Cool\" in the task field",
             "result": {
               "status": "passed",
-<<<<<<< HEAD
-              "duration": 3638870578
-=======
-              "duration": 2882341974
->>>>>>> 666f81f629596b162beb0f534ff7fb5c50f05587
+              "duration": 2553261508
             },
             "line": 9,
             "match": {
@@ -131,11 +107,7 @@
             "name": "I click the add button",
             "result": {
               "status": "passed",
-<<<<<<< HEAD
-              "duration": 3168004
-=======
-              "duration": 1297920
->>>>>>> 666f81f629596b162beb0f534ff7fb5c50f05587
+              "duration": 945495
             },
             "line": 10,
             "match": {
@@ -148,11 +120,7 @@
             "name": "I should see my \"Be Awesome\" in the list",
             "result": {
               "status": "failed",
-<<<<<<< HEAD
-              "duration": 359568247,
-=======
-              "duration": 223914667,
->>>>>>> 666f81f629596b162beb0f534ff7fb5c50f05587
+              "duration": 217313984,
               "error_message": "AssertionError: expected 'Be Cool' to equal 'Be Awesome'"
             },
             "line": 11,
@@ -181,11 +149,7 @@
             "name": "I go to \"https://angular.io/\"",
             "result": {
               "status": "passed",
-<<<<<<< HEAD
-              "duration": 11791802
-=======
-              "duration": 613973
->>>>>>> 666f81f629596b162beb0f534ff7fb5c50f05587
+              "duration": 7975263
             },
             "line": 19,
             "match": {
@@ -198,11 +162,7 @@
             "name": "I should see One Framework Displayed",
             "result": {
               "status": "passed",
-<<<<<<< HEAD
-              "duration": 4569610543
-=======
-              "duration": 4932803840
->>>>>>> 666f81f629596b162beb0f534ff7fb5c50f05587
+              "duration": 4039139037
             },
             "line": 20,
             "match": {

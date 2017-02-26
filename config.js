@@ -26,6 +26,7 @@ exports.config = {
   onPrepare: function () {
 
           browser.manage().window().maximize();
+          browser.manage().timeouts().implicitlyWait(50000);
           global.expect = chai.expect;
       },
 
