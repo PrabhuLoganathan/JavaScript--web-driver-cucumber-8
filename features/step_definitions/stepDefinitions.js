@@ -5,26 +5,25 @@ var homePage = function(){
   var angularPage = new HomePage();
 //module.exports = function() {
   this.Given(/^I go to "([^"]*)"$/, function(site) {
-    browser.get(site);
+    angularPage.go(site);
 
   });
 
   this.When(/^I add "([^"]*)" in the task field$/, function(task) {
-    return angularPage.todoList.sendKeys(task);
+    return angularPage.addTask(task);
 
   });
 
   this.When(/^I click the add button$/, function() {
-    var el = element(by.css('[value="add"]'));
-    el.click();
+    return angularPage.submitTask();
 
   });
 
  this.Then(/^I should see my "([^"]*)" in the list$/, function (inputText) {
-    var todoList = element.all(by.repeater('todo in todoList.todos'));
-    //return expect(todoList.count()).to.eventually.equal(3);
-    return expect(todoList.get(2).getText()).to.eventually.equal(inputText)
-    //callback();
+   var todoList = angularPage.angularHomepage.todoList;
+     expect(todoList.count()).to.eventually.equal(3);
+     return expect(todoList.get(2).getText()).to.eventually.equal('inputText')
+       .and.notify(callback);
   });
 
 //Angular IO Page
