@@ -1,23 +1,13 @@
-'use strict';
-module.exports = {
+var homePage= function () {
+    "use strict";
+    this.taskList = element(by.model('todoList.todoText'));
+    this.todoList = element.all(by.repeater('todo in todoList.todos'));
 
-  angularHomepage: {
-    taskList: element(by.model('todoList.todoText')),
-    taskButton: element(by.css('[value="add"]')),
-    todoList: element.all(by.repeater('todo in todoList.todos'))
-  },
+    this.get = function(site){
+      browser.get(site);
+    };
 
-  go: function(site) {
-    browser.get(site);
-  },
 
-  addTask: function(task) {
-    var angular = this.angularHomepage;
-    angular.taskList.sendKeys(task);
-  },
 
-  submitTask: function() {
-    var angular = this.angularHomepage;
-    angular.taskButton.click();
-  }
 };
+module.exports = homePage;

@@ -14,7 +14,7 @@
             "name": "I go to \"https://angularjs.org/\"",
             "result": {
               "status": "passed",
-              "duration": 2466989
+              "duration": 2157225
             },
             "line": 8,
             "match": {
@@ -27,7 +27,7 @@
             "name": "I add \"Be Awesome\" in the task field",
             "result": {
               "status": "passed",
-              "duration": 10788931570
+              "duration": 11795133954
             },
             "line": 9,
             "match": {
@@ -40,7 +40,7 @@
             "name": "I click the add button",
             "result": {
               "status": "passed",
-              "duration": 1290242
+              "duration": 2438825
             },
             "line": 10,
             "match": {
@@ -53,7 +53,7 @@
             "name": "I should see my \"Be Awesome\" in the list",
             "result": {
               "status": "passed",
-              "duration": 225687755
+              "duration": 256345490
             },
             "line": 11,
             "match": {
@@ -81,7 +81,7 @@
             "name": "I go to \"https://angularjs.org/\"",
             "result": {
               "status": "passed",
-              "duration": 406613
+              "duration": 456960
             },
             "line": 8,
             "match": {
@@ -94,7 +94,7 @@
             "name": "I add \"Be Cool\" in the task field",
             "result": {
               "status": "passed",
-              "duration": 2553261508
+              "duration": 2992394244
             },
             "line": 9,
             "match": {
@@ -107,7 +107,7 @@
             "name": "I click the add button",
             "result": {
               "status": "passed",
-              "duration": 945495
+              "duration": 809813
             },
             "line": 10,
             "match": {
@@ -120,7 +120,7 @@
             "name": "I should see my \"Be Awesome\" in the list",
             "result": {
               "status": "failed",
-              "duration": 217313984,
+              "duration": 252224319,
               "error_message": "AssertionError: expected 'Be Cool' to equal 'Be Awesome'"
             },
             "line": 11,
@@ -149,7 +149,7 @@
             "name": "I go to \"https://angular.io/\"",
             "result": {
               "status": "passed",
-              "duration": 7975263
+              "duration": 551680
             },
             "line": 19,
             "match": {
@@ -162,7 +162,7 @@
             "name": "I should see One Framework Displayed",
             "result": {
               "status": "passed",
-              "duration": 4039139037
+              "duration": 2419660194
             },
             "line": 20,
             "match": {
