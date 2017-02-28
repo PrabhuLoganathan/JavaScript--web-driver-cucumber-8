@@ -1,13 +1,18 @@
 var homePage= function () {
     "use strict";
-    this.taskList = element(by.model('todoList.todoText'));
-    this.todoList = element.all(by.repeater('todo in todoList.todos'));
+    var taskList = element(by.model('todoList.todoText'));
+    var taskButton = element(by.css('[value="add"]'));
 
     this.get = function(site){
       browser.get(site);
     };
 
+    this.addTask = function(task){
+      taskList.sendKeys(task);
+    };
 
-
+    this.submitTask = function(){
+      taskButton.click();
+    };
 };
 module.exports = homePage;

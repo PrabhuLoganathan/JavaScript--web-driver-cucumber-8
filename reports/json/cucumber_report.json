@@ -14,7 +14,7 @@
             "name": "I go to \"https://angularjs.org/\"",
             "result": {
               "status": "passed",
-              "duration": 2157225
+              "duration": 1877333
             },
             "line": 8,
             "match": {
@@ -27,11 +27,11 @@
             "name": "I add \"Be Awesome\" in the task field",
             "result": {
               "status": "passed",
-              "duration": 11795133954
+              "duration": 881920
             },
             "line": 9,
             "match": {
-              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\stepDefinitions.js:12"
+              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\stepDefinitions.js:11"
             }
           },
           {
@@ -40,11 +40,11 @@
             "name": "I click the add button",
             "result": {
               "status": "passed",
-              "duration": 2438825
+              "duration": 572586
             },
             "line": 10,
             "match": {
-              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\stepDefinitions.js:17"
+              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\stepDefinitions.js:15"
             }
           },
           {
@@ -53,11 +53,11 @@
             "name": "I should see my \"Be Awesome\" in the list",
             "result": {
               "status": "passed",
-              "duration": 256345490
+              "duration": 10356919741
             },
             "line": 11,
             "match": {
-              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\stepDefinitions.js:23"
+              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\stepDefinitions.js:19"
             }
           }
         ],
@@ -81,7 +81,7 @@
             "name": "I go to \"https://angularjs.org/\"",
             "result": {
               "status": "passed",
-              "duration": 456960
+              "duration": 830720
             },
             "line": 8,
             "match": {
@@ -94,11 +94,11 @@
             "name": "I add \"Be Cool\" in the task field",
             "result": {
               "status": "passed",
-              "duration": 2992394244
+              "duration": 558506
             },
             "line": 9,
             "match": {
-              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\stepDefinitions.js:12"
+              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\stepDefinitions.js:11"
             }
           },
           {
@@ -107,11 +107,11 @@
             "name": "I click the add button",
             "result": {
               "status": "passed",
-              "duration": 809813
+              "duration": 2363732
             },
             "line": 10,
             "match": {
-              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\stepDefinitions.js:17"
+              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\stepDefinitions.js:15"
             }
           },
           {
@@ -120,12 +120,12 @@
             "name": "I should see my \"Be Awesome\" in the list",
             "result": {
               "status": "failed",
-              "duration": 252224319,
+              "duration": 2912493691,
               "error_message": "AssertionError: expected 'Be Cool' to equal 'Be Awesome'"
             },
             "line": 11,
             "match": {
-              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\stepDefinitions.js:23"
+              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\stepDefinitions.js:19"
             }
           }
         ],
@@ -149,7 +149,7 @@
             "name": "I go to \"https://angular.io/\"",
             "result": {
               "status": "passed",
-              "duration": 551680
+              "duration": 442880
             },
             "line": 19,
             "match": {
@@ -162,11 +162,11 @@
             "name": "I should see One Framework Displayed",
             "result": {
               "status": "passed",
-              "duration": 2419660194
+              "duration": 2500615893
             },
             "line": 20,
             "match": {
-              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\stepDefinitions.js:31"
+              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\angularSteps.js:9"
             }
           }
         ],
