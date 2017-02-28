@@ -14,7 +14,7 @@
             "name": "I go to \"https://angular.io/\"",
             "result": {
               "status": "passed",
-              "duration": 2001919
+              "duration": 2317225
             },
             "line": 8,
             "match": {
@@ -27,11 +27,11 @@
             "name": "I should see One Framework Displayed",
             "result": {
               "status": "passed",
-              "duration": 9646761537
+              "duration": 8042503235
             },
             "line": 9,
             "match": {
-              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\angularSteps.js:9"
+              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\angularSteps.js:8"
             }
           }
         ],
@@ -66,7 +66,7 @@
             "name": "I go to \"https://angularjs.org/\"",
             "result": {
               "status": "passed",
-              "duration": 910933
+              "duration": 1568000
             },
             "line": 8,
             "match": {
@@ -79,7 +79,7 @@
             "name": "I add \"Be Awesome\" in the task field",
             "result": {
               "status": "passed",
-              "duration": 1423359
+              "duration": 2121385
             },
             "line": 9,
             "match": {
@@ -92,7 +92,7 @@
             "name": "I click the add button",
             "result": {
               "status": "passed",
-              "duration": 1073067
+              "duration": 1102933
             },
             "line": 10,
             "match": {
@@ -105,7 +105,7 @@
             "name": "I should see my \"Be Awesome\" in the list",
             "result": {
               "status": "passed",
-              "duration": 8908710439
+              "duration": 9608012114
             },
             "line": 11,
             "match": {
@@ -133,7 +133,7 @@
             "name": "I go to \"https://angularjs.org/\"",
             "result": {
               "status": "passed",
-              "duration": 4892158
+              "duration": 705707
             },
             "line": 8,
             "match": {
@@ -146,7 +146,7 @@
             "name": "I add \"Be Cool\" in the task field",
             "result": {
               "status": "passed",
-              "duration": 770986
+              "duration": 450986
             },
             "line": 9,
             "match": {
@@ -159,7 +159,7 @@
             "name": "I click the add button",
             "result": {
               "status": "passed",
-              "duration": 381867
+              "duration": 322987
             },
             "line": 10,
             "match": {
@@ -172,7 +172,7 @@
             "name": "I should see my \"Be Awesome\" in the list",
             "result": {
               "status": "failed",
-              "duration": 2885920902,
+              "duration": 3167987981,
               "error_message": "AssertionError: expected 'Be Cool' to equal 'Be Awesome'"
             },
             "line": 11,

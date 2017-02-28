@@ -14,5 +14,12 @@ var homePage= function () {
     this.submitTask = function(){
       taskButton.click();
     };
+
+    //return the Angular Page Title
+     this.getTitle = function(){
+       return browser.getTitle();
+     }
+
+
 };
 module.exports = homePage;
