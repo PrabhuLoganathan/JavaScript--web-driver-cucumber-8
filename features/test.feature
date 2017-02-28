@@ -13,8 +13,3 @@ Examples:
         | words      |result     |
         | Be Awesome |Be Awesome |
         | Be Cool    |Be Awesome |
-
-@AngularPage
-  Scenario: Angular Page Test
-    Given I go to "https://angular.io/"
-    Then I should see One Framework Displayed

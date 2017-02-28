@@ -1,5 +1,57 @@
 [
   {
+    "description": "  As a user of Angular\n  I should be able to use Cucumber\n  In order to run my E2E tests",
+    "elements": [
+      {
+        "id": "running-cucumber-with-protractor;angular-page-test",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Angular Page Test",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I go to \"https://angular.io/\"",
+            "result": {
+              "status": "passed",
+              "duration": 2001919
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\stepDefinitions.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see One Framework Displayed",
+            "result": {
+              "status": "passed",
+              "duration": 9646761537
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\angularSteps.js:9"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AngularPage",
+            "line": 6
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "running-cucumber-with-protractor",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Running Cucumber with Protractor",
+    "tags": [],
+    "uri": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\angular.feature"
+  },
+  {
     "description": "  As a user of Protractor\n  I should be able to use Cucumber\n  In order to run my E2E tests",
     "elements": [
       {
@@ -14,7 +66,7 @@
             "name": "I go to \"https://angularjs.org/\"",
             "result": {
               "status": "passed",
-              "duration": 1877333
+              "duration": 910933
             },
             "line": 8,
             "match": {
@@ -27,7 +79,7 @@
             "name": "I add \"Be Awesome\" in the task field",
             "result": {
               "status": "passed",
-              "duration": 881920
+              "duration": 1423359
             },
             "line": 9,
             "match": {
@@ -40,7 +92,7 @@
             "name": "I click the add button",
             "result": {
               "status": "passed",
-              "duration": 572586
+              "duration": 1073067
             },
             "line": 10,
             "match": {
@@ -53,7 +105,7 @@
             "name": "I should see my \"Be Awesome\" in the list",
             "result": {
               "status": "passed",
-              "duration": 10356919741
+              "duration": 8908710439
             },
             "line": 11,
             "match": {
@@ -81,7 +133,7 @@
             "name": "I go to \"https://angularjs.org/\"",
             "result": {
               "status": "passed",
-              "duration": 830720
+              "duration": 4892158
             },
             "line": 8,
             "match": {
@@ -94,7 +146,7 @@
             "name": "I add \"Be Cool\" in the task field",
             "result": {
               "status": "passed",
-              "duration": 558506
+              "duration": 770986
             },
             "line": 9,
             "match": {
@@ -107,7 +159,7 @@
             "name": "I click the add button",
             "result": {
               "status": "passed",
-              "duration": 2363732
+              "duration": 381867
             },
             "line": 10,
             "match": {
@@ -120,7 +172,7 @@
             "name": "I should see my \"Be Awesome\" in the list",
             "result": {
               "status": "failed",
-              "duration": 2912493691,
+              "duration": 2885920902,
               "error_message": "AssertionError: expected 'Be Cool' to equal 'Be Awesome'"
             },
             "line": 11,
@@ -133,47 +185,6 @@
           {
             "name": "@AddNewTask",
             "line": 6
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "id": "running-cucumber-with-protractor;angular-page-test",
-        "keyword": "Scenario",
-        "line": 18,
-        "name": "Angular Page Test",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "I go to \"https://angular.io/\"",
-            "result": {
-              "status": "passed",
-              "duration": 442880
-            },
-            "line": 19,
-            "match": {
-              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\stepDefinitions.js:7"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "I should see One Framework Displayed",
-            "result": {
-              "status": "passed",
-              "duration": 2500615893
-            },
-            "line": 20,
-            "match": {
-              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\angularSteps.js:9"
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@AngularPage",
-            "line": 17
           }
         ],
         "type": "scenario"
