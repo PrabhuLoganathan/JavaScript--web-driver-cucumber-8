@@ -3,6 +3,47 @@
     "description": "  As a user of Rate My Agent\n  I should be able to view Main Page\n  In order to search agents",
     "elements": [
       {
+        "id": "rate-my-agent-main-page;rate-my-agent-main-page",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Rate My Agent Main Page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I go to \"https://www.ratemyagent.com.au/\"",
+            "result": {
+              "status": "passed",
+              "duration": 3608745
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\rateAgentSteps.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see the page title",
+            "result": {
+              "status": "passed",
+              "duration": 12754352318
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\rateAgentSteps.js:15"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RateMyAgent",
+            "line": 6
+          }
+        ],
+        "type": "scenario"
+      },
+      {
         "id": "rate-my-agent-main-page;search-for-location",
         "keyword": "Scenario",
         "line": 19,
@@ -14,7 +55,7 @@
             "name": "I go to \"https://www.ratemyagent.com.au/\"",
             "result": {
               "status": "passed",
-              "duration": 3136426
+              "duration": 2537813
             },
             "line": 13,
             "match": {
@@ -27,7 +68,7 @@
             "name": "I click on the Search Button",
             "result": {
               "status": "passed",
-              "duration": 1590186
+              "duration": 2355625
             },
             "line": 14,
             "match": {
@@ -40,7 +81,7 @@
             "name": "I enter a \"Bendigo\" name",
             "result": {
               "status": "passed",
-              "duration": 2139733
+              "duration": 1213013
             },
             "line": 15,
             "match": {
@@ -52,8 +93,9 @@
             "keyword": "Then ",
             "name": "I should see the list of \"Bendigo\" displayed",
             "result": {
-              "status": "passed",
-              "duration": 32302212564
+              "status": "failed",
+              "duration": 18300784939,
+              "error_message": "AssertionError: expected 'VIC\\nBlind Bight, VIC, 3980\\nSuburb' to include 'Bendigo'"
             },
             "line": 16,
             "match": {
@@ -81,7 +123,7 @@
             "name": "I go to \"https://www.ratemyagent.com.au/\"",
             "result": {
               "status": "passed",
-              "duration": 2293759
+              "duration": 1316693
             },
             "line": 13,
             "match": {
@@ -94,7 +136,7 @@
             "name": "I click on the Search Button",
             "result": {
               "status": "passed",
-              "duration": 2188372
+              "duration": 852480
             },
             "line": 14,
             "match": {
@@ -107,7 +149,7 @@
             "name": "I enter a \"Armadale\" name",
             "result": {
               "status": "passed",
-              "duration": 1522773
+              "duration": 1129813
             },
             "line": 15,
             "match": {
@@ -120,7 +162,7 @@
             "name": "I should see the list of \"Armadale\" displayed",
             "result": {
               "status": "passed",
-              "duration": 7358792807
+              "duration": 7686992774
             },
             "line": 16,
             "match": {
