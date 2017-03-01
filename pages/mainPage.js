@@ -18,7 +18,6 @@ var mainPage = function () {
 
   this.locationName = function(locatename){
       location.sendKeys(locatename);
-      browser.driver.sleep(3000);
   };
 
 };
