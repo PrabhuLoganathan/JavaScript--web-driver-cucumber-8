@@ -14,7 +14,7 @@
             "name": "I go to \"https://www.ratemyagent.com.au/\"",
             "result": {
               "status": "passed",
-              "duration": 2419199
+              "duration": 3103572
             },
             "line": 8,
             "match": {
@@ -27,7 +27,7 @@
             "name": "I should see the page title",
             "result": {
               "status": "passed",
-              "duration": 12497929175
+              "duration": 8671427980
             },
             "line": 9,
             "match": {
@@ -55,7 +55,7 @@
             "name": "I go to \"https://www.ratemyagent.com.au/\"",
             "result": {
               "status": "passed",
-              "duration": 4419411
+              "duration": 987306
             },
             "line": 13,
             "match": {
@@ -68,7 +68,7 @@
             "name": "I click on the Search Button",
             "result": {
               "status": "passed",
-              "duration": 4482131
+              "duration": 1825706
             },
             "line": 14,
             "match": {
@@ -78,10 +78,10 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "I enter a \"Bendigo\" name",
+            "name": "I enter a \"Clayton\" name",
             "result": {
               "status": "passed",
-              "duration": 3994451
+              "duration": 1351680
             },
             "line": 15,
             "match": {
@@ -91,11 +91,10 @@
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "I should see the list of \"Bendigo\" displayed",
+            "name": "I should see the list of \"Clayton\" displayed",
             "result": {
-              "status": "failed",
-              "duration": 11110540326,
-              "error_message": "AssertionError: expected 'NSW\\nBeggan Beggan, NSW, 2587\\nSuburb' to include 'Bendigo'"
+              "status": "passed",
+              "duration": 13098274945
             },
             "line": 16,
             "match": {
@@ -123,7 +122,7 @@
             "name": "I go to \"https://www.ratemyagent.com.au/\"",
             "result": {
               "status": "passed",
-              "duration": 2502399
+              "duration": 4207359
             },
             "line": 13,
             "match": {
@@ -136,7 +135,7 @@
             "name": "I click on the Search Button",
             "result": {
               "status": "passed",
-              "duration": 633173
+              "duration": 1174613
             },
             "line": 14,
             "match": {
@@ -149,7 +148,7 @@
             "name": "I enter a \"Armadale\" name",
             "result": {
               "status": "passed",
-              "duration": 817920
+              "duration": 950613
             },
             "line": 15,
             "match": {
@@ -162,7 +161,7 @@
             "name": "I should see the list of \"Armadale\" displayed",
             "result": {
               "status": "passed",
-              "duration": 7101268864
+              "duration": 8209240230
             },
             "line": 16,
             "match": {

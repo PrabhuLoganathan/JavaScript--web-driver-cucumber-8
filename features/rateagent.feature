@@ -16,5 +16,5 @@ Feature: Rate My Agent Main Page
     Then I should see the list of "<suburbs>" displayed
 Examples:
         | location   |suburbs    |
-        | Bendigo    |Bendigo    |
+        | Clayton    |Clayton    |
         | Armadale   |Armadale   |
