@@ -3,47 +3,6 @@
     "description": "  As a user of Rate My Agent\n  I should be able to view Main Page\n  In order to search agents",
     "elements": [
       {
-        "id": "rate-my-agent-main-page;rate-my-agent-main-page",
-        "keyword": "Scenario",
-        "line": 7,
-        "name": "Rate My Agent Main Page",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "I go to \"https://www.ratemyagent.com.au/\"",
-            "result": {
-              "status": "passed",
-              "duration": 1862399
-            },
-            "line": 8,
-            "match": {
-              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\rateAgentSteps.js:9"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "I should see the page title",
-            "result": {
-              "status": "passed",
-              "duration": 9099924011
-            },
-            "line": 9,
-            "match": {
-              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\rateAgentSteps.js:15"
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@RateMyAgent",
-            "line": 6
-          }
-        ],
-        "type": "scenario"
-      },
-      {
         "id": "rate-my-agent-main-page;search-for-location",
         "keyword": "Scenario",
         "line": 19,
@@ -55,7 +14,7 @@
             "name": "I go to \"https://www.ratemyagent.com.au/\"",
             "result": {
               "status": "passed",
-              "duration": 868266
+              "duration": 3136426
             },
             "line": 13,
             "match": {
@@ -68,7 +27,7 @@
             "name": "I click on the Search Button",
             "result": {
               "status": "passed",
-              "duration": 1093973
+              "duration": 1590186
             },
             "line": 14,
             "match": {
@@ -78,10 +37,10 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "I enter a \"Berwick\" name",
+            "name": "I enter a \"Bendigo\" name",
             "result": {
               "status": "passed",
-              "duration": 1658880
+              "duration": 2139733
             },
             "line": 15,
             "match": {
@@ -91,10 +50,77 @@
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "I should see the list of \"Berwick\" displayed",
+            "name": "I should see the list of \"Bendigo\" displayed",
             "result": {
               "status": "passed",
-              "duration": 13879124958
+              "duration": 32302212564
+            },
+            "line": 16,
+            "match": {
+              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\rateAgentSteps.js:30"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Search",
+            "line": 11
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "rate-my-agent-main-page;search-for-location",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Search for location",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I go to \"https://www.ratemyagent.com.au/\"",
+            "result": {
+              "status": "passed",
+              "duration": 2293759
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\rateAgentSteps.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click on the Search Button",
+            "result": {
+              "status": "passed",
+              "duration": 2188372
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\rateAgentSteps.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I enter a \"Armadale\" name",
+            "result": {
+              "status": "passed",
+              "duration": 1522773
+            },
+            "line": 15,
+            "match": {
+              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\rateAgentSteps.js:25"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see the list of \"Armadale\" displayed",
+            "result": {
+              "status": "passed",
+              "duration": 7358792807
             },
             "line": 16,
             "match": {
