@@ -16,8 +16,11 @@
 # Start Selenium Web Driver Manager from DOS Terminal
 * webdriver-manager start
 
-## Install Dependencies from package.json file
+# Install Dependencies from package.json file
  * npm install
 
-## Run Test
+# Run Test
  * npm test
+
+# View Cucumber HTML reports
+Reports/Html/cucumber_report.html or cucumber_html_reporter.html
