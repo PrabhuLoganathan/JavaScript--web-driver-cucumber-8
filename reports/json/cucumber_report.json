@@ -14,7 +14,7 @@
             "name": "I go to \"https://www.ratemyagent.com.au/\"",
             "result": {
               "status": "passed",
-              "duration": 3080532
+              "duration": 3461972
             },
             "line": 8,
             "match": {
@@ -27,7 +27,7 @@
             "name": "I should see the page title",
             "result": {
               "status": "passed",
-              "duration": 12681116723
+              "duration": 12709605670
             },
             "line": 9,
             "match": {
@@ -55,7 +55,7 @@
             "name": "I go to \"https://www.ratemyagent.com.au/\"",
             "result": {
               "status": "passed",
-              "duration": 578560
+              "duration": 853759
             },
             "line": 13,
             "match": {
@@ -68,7 +68,7 @@
             "name": "I click on the Search Button",
             "result": {
               "status": "passed",
-              "duration": 1129813
+              "duration": 1715626
             },
             "line": 14,
             "match": {
@@ -81,7 +81,7 @@
             "name": "I enter a \"Berwick\" name",
             "result": {
               "status": "passed",
-              "duration": 629760
+              "duration": 1284266
             },
             "line": 15,
             "match": {
@@ -94,7 +94,7 @@
             "name": "I should see the list of \"Berwick\" displayed",
             "result": {
               "status": "passed",
-              "duration": 8047774700
+              "duration": 9978521183
             },
             "line": 16,
             "match": {
