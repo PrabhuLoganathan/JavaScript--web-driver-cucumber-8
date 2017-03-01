@@ -29,7 +29,7 @@ var rateAgentPage = function(){
 
     this.Then(/^I should see the list of "([^"]*)" displayed$/, function (results) {
          var searchList = element.all(by.repeater('result in vm.resultSet.Results'));
-         return expect(searchList.get(1).getText()).to.eventually.contain(results);
+         return expect(searchList.get(0).getText()).to.eventually.contain(results);
 
       });
 }

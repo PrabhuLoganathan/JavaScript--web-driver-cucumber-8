@@ -17,8 +17,20 @@ var mainPage = function () {
   };
 
   this.locationName = function(locatename){
-      location.sendKeys(locatename);
+    waitForElementToBePresent(location);
+    location.sendKeys(locatename);
   };
+
+  function waitForElementToBePresent(element){
+      
+      browser.wait(function () {
+      return element.isPresent();
+      },60000);
+
+      browser.wait(function () {
+      return element.isDisplayed();
+      },60000);
+      };
 
 };
 module.exports = mainPage;
