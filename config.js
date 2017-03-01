@@ -30,11 +30,6 @@ exports.config = {
           global.expect = chai.expect;
       },
 
-
-
-
-
-
   cucumberOpts: {
     //require: 'features/step_definitions/*.steps.js',
     require: [
@@ -42,12 +37,11 @@ exports.config = {
         'features/support/hook.js',
         'features/support/env.js',
         //'features/support/hookhtml.js'
-
-
     ],
 
     format: ['json:reports/cucumber-test-results.json', 'pretty'],
-    tags: '@AddNewTask,@AngularPage',
+    //tags: '@AddNewTask,@AngularPage',
+    tags: '@Search',
     format: 'pretty',
     profile: false,
     'no-source': true

@@ -1,200 +1,80 @@
 [
   {
-    "description": "  As a user of Angular\n  I should be able to use Cucumber\n  In order to run my E2E tests",
+    "description": "  As a user of Rate My Agent\n  I should be able to view Main Page\n  In order to search agents",
     "elements": [
       {
-        "id": "running-cucumber-with-protractor;angular-page-test",
+        "id": "rate-my-agent-main-page;search-for-location",
         "keyword": "Scenario",
-        "line": 7,
-        "name": "Angular Page Test",
+        "line": 19,
+        "name": "Search for location",
         "steps": [
           {
             "arguments": [],
             "keyword": "Given ",
-            "name": "I go to \"https://angular.io/\"",
+            "name": "I go to \"https://www.ratemyagent.com.au/\"",
             "result": {
               "status": "passed",
-              "duration": 2317225
+              "duration": 2300159
             },
-            "line": 8,
+            "line": 13,
             "match": {
-              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\stepDefinitions.js:7"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "I should see One Framework Displayed",
-            "result": {
-              "status": "passed",
-              "duration": 8042503235
-            },
-            "line": 9,
-            "match": {
-              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\angularSteps.js:8"
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@AngularPage",
-            "line": 6
-          }
-        ],
-        "type": "scenario"
-      }
-    ],
-    "id": "running-cucumber-with-protractor",
-    "keyword": "Feature",
-    "line": 1,
-    "name": "Running Cucumber with Protractor",
-    "tags": [],
-    "uri": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\angular.feature"
-  },
-  {
-    "description": "  As a user of Protractor\n  I should be able to use Cucumber\n  In order to run my E2E tests",
-    "elements": [
-      {
-        "id": "running-cucumber-with-protractor;protractor-and-cucumber-test",
-        "keyword": "Scenario",
-        "line": 14,
-        "name": "Protractor and Cucumber Test",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "I go to \"https://angularjs.org/\"",
-            "result": {
-              "status": "passed",
-              "duration": 1568000
-            },
-            "line": 8,
-            "match": {
-              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\stepDefinitions.js:7"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "name": "I add \"Be Awesome\" in the task field",
-            "result": {
-              "status": "passed",
-              "duration": 2121385
-            },
-            "line": 9,
-            "match": {
-              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\stepDefinitions.js:11"
+              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\rateAgentSteps.js:9"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "I click the add button",
+            "name": "I click on the Search Button",
             "result": {
               "status": "passed",
-              "duration": 1102933
+              "duration": 880213
             },
-            "line": 10,
+            "line": 14,
             "match": {
-              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\stepDefinitions.js:15"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "I should see my \"Be Awesome\" in the list",
-            "result": {
-              "status": "passed",
-              "duration": 9608012114
-            },
-            "line": 11,
-            "match": {
-              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\stepDefinitions.js:19"
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@AddNewTask",
-            "line": 6
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "id": "running-cucumber-with-protractor;protractor-and-cucumber-test",
-        "keyword": "Scenario",
-        "line": 15,
-        "name": "Protractor and Cucumber Test",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "I go to \"https://angularjs.org/\"",
-            "result": {
-              "status": "passed",
-              "duration": 705707
-            },
-            "line": 8,
-            "match": {
-              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\stepDefinitions.js:7"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "name": "I add \"Be Cool\" in the task field",
-            "result": {
-              "status": "passed",
-              "duration": 450986
-            },
-            "line": 9,
-            "match": {
-              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\stepDefinitions.js:11"
+              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\rateAgentSteps.js:20"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "I click the add button",
+            "name": "I enter a \"Berwick\" name",
             "result": {
               "status": "passed",
-              "duration": 322987
+              "duration": 455680
             },
-            "line": 10,
+            "line": 15,
             "match": {
-              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\stepDefinitions.js:15"
+              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\rateAgentSteps.js:25"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "I should see my \"Be Awesome\" in the list",
+            "name": "I should see the list of \"Berwick\" displayed",
             "result": {
-              "status": "failed",
-              "duration": 3167987981,
-              "error_message": "AssertionError: expected 'Be Cool' to equal 'Be Awesome'"
+              "status": "passed",
+              "duration": 14301531604
             },
-            "line": 11,
+            "line": 16,
             "match": {
-              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\stepDefinitions.js:19"
+              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\rateAgentSteps.js:30"
             }
           }
         ],
         "tags": [
           {
-            "name": "@AddNewTask",
-            "line": 6
+            "name": "@Search",
+            "line": 11
           }
         ],
         "type": "scenario"
       }
     ],
-    "id": "running-cucumber-with-protractor",
+    "id": "rate-my-agent-main-page",
     "keyword": "Feature",
     "line": 1,
-    "name": "Running Cucumber with Protractor",
+    "name": "Rate My Agent Main Page",
     "tags": [],
-    "uri": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\test.feature"
+    "uri": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\rateagent.feature"
   }
 ]

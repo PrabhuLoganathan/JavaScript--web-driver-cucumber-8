@@ -4,9 +4,9 @@ var homePage = function(){
 
   var angularPage = new HomePage();
 
-  this.Given(/^I go to "([^"]*)"$/, function(site) {
-    angularPage.get(site);
-  });
+  //this.Given(/^I go to "([^"]*)"$/, function(site) {
+  //  angularPage.get(site);
+  //});
 
   this.When(/^I add "([^"]*)" in the task field$/, function(task) {
     return angularPage.addTask(task);
