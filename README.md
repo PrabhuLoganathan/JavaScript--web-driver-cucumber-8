@@ -1,13 +1,13 @@
 # Protractor Selenium Cucumber
 #
-# Checkout from Git
 
-# NodeJS
+# Install NodeJS
 * Install NodeJs for Windows
 
 # Install Protractor Globally
 * npm install -g protractor
 
+# Checkout from Git Repo
 * git clone https://github.com/devinbhullar/protractor-cucumber.git
 
 # Web Driver Update
