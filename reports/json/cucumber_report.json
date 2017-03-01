@@ -14,11 +14,11 @@
             "name": "I go to \"https://www.ratemyagent.com.au/\"",
             "result": {
               "status": "passed",
-              "duration": 4355411
+              "duration": 2419199
             },
             "line": 8,
             "match": {
-              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\rateAgentSteps.js:9"
+              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\rateAgentSteps.js:7"
             }
           },
           {
@@ -27,11 +27,11 @@
             "name": "I should see the page title",
             "result": {
               "status": "passed",
-              "duration": 10561668027
+              "duration": 12497929175
             },
             "line": 9,
             "match": {
-              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\rateAgentSteps.js:15"
+              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\rateAgentSteps.js:13"
             }
           }
         ],
@@ -55,11 +55,11 @@
             "name": "I go to \"https://www.ratemyagent.com.au/\"",
             "result": {
               "status": "passed",
-              "duration": 670293
+              "duration": 4419411
             },
             "line": 13,
             "match": {
-              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\rateAgentSteps.js:9"
+              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\rateAgentSteps.js:7"
             }
           },
           {
@@ -68,11 +68,11 @@
             "name": "I click on the Search Button",
             "result": {
               "status": "passed",
-              "duration": 1890559
+              "duration": 4482131
             },
             "line": 14,
             "match": {
-              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\rateAgentSteps.js:20"
+              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\rateAgentSteps.js:18"
             }
           },
           {
@@ -81,11 +81,11 @@
             "name": "I enter a \"Bendigo\" name",
             "result": {
               "status": "passed",
-              "duration": 1111039
+              "duration": 3994451
             },
             "line": 15,
             "match": {
-              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\rateAgentSteps.js:25"
+              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\rateAgentSteps.js:23"
             }
           },
           {
@@ -93,12 +93,13 @@
             "keyword": "Then ",
             "name": "I should see the list of \"Bendigo\" displayed",
             "result": {
-              "status": "passed",
-              "duration": 8049311552
+              "status": "failed",
+              "duration": 11110540326,
+              "error_message": "AssertionError: expected 'NSW\\nBeggan Beggan, NSW, 2587\\nSuburb' to include 'Bendigo'"
             },
             "line": 16,
             "match": {
-              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\rateAgentSteps.js:30"
+              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\rateAgentSteps.js:28"
             }
           }
         ],
@@ -122,11 +123,11 @@
             "name": "I go to \"https://www.ratemyagent.com.au/\"",
             "result": {
               "status": "passed",
-              "duration": 3276799
+              "duration": 2502399
             },
             "line": 13,
             "match": {
-              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\rateAgentSteps.js:9"
+              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\rateAgentSteps.js:7"
             }
           },
           {
@@ -135,11 +136,11 @@
             "name": "I click on the Search Button",
             "result": {
               "status": "passed",
-              "duration": 1293226
+              "duration": 633173
             },
             "line": 14,
             "match": {
-              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\rateAgentSteps.js:20"
+              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\rateAgentSteps.js:18"
             }
           },
           {
@@ -148,11 +149,11 @@
             "name": "I enter a \"Armadale\" name",
             "result": {
               "status": "passed",
-              "duration": 1030400
+              "duration": 817920
             },
             "line": 15,
             "match": {
-              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\rateAgentSteps.js:25"
+              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\rateAgentSteps.js:23"
             }
           },
           {
@@ -161,11 +162,11 @@
             "name": "I should see the list of \"Armadale\" displayed",
             "result": {
               "status": "passed",
-              "duration": 8057613202
+              "duration": 7101268864
             },
             "line": 16,
             "match": {
-              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\rateAgentSteps.js:30"
+              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\rateAgentSteps.js:28"
             }
           }
         ],

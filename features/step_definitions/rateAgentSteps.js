@@ -1,6 +1,4 @@
 var LandingPage = require('../../pages/mainPage');
-var chai = require('chai');
-var chaiAsPromised = require('chai-as-promised');
 
 var rateAgentPage = function(){
 
