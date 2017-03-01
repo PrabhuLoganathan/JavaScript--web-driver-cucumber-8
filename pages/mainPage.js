@@ -3,7 +3,6 @@ var mainPage = function () {
 
   var searchButton = element(By.xpath('//*[@id="ng-app"]/body/main/main/section[1]/div[2]/a'));
   var location = element(By.id('searchBox'));
- 
 
   this.get = function(site){
     browser.get(site);
@@ -19,7 +18,7 @@ var mainPage = function () {
 
   this.locationName = function(locatename){
       location.sendKeys(locatename);
-
+      browser.driver.sleep(1000);
   };
 
 };
