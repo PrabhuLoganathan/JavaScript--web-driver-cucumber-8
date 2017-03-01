@@ -14,7 +14,7 @@
             "name": "I go to \"https://www.ratemyagent.com.au/\"",
             "result": {
               "status": "passed",
-              "duration": 1967786
+              "duration": 3275519
             },
             "line": 13,
             "match": {
@@ -27,7 +27,7 @@
             "name": "I click on the Search Button",
             "result": {
               "status": "passed",
-              "duration": 990719
+              "duration": 2291625
             },
             "line": 14,
             "match": {
@@ -40,7 +40,7 @@
             "name": "I enter a \"Bendigo\" name",
             "result": {
               "status": "passed",
-              "duration": 945493
+              "duration": 1628159
             },
             "line": 15,
             "match": {
@@ -52,8 +52,9 @@
             "keyword": "Then ",
             "name": "I should see the list of \"Bendigo\" displayed",
             "result": {
-              "status": "passed",
-              "duration": 27823037089
+              "status": "failed",
+              "duration": 20434298268,
+              "error_message": "AssertionError: expected 'NSW\\nBendalong, NSW, 2539\\nSuburb' to include 'Bendigo'"
             },
             "line": 16,
             "match": {
@@ -81,7 +82,7 @@
             "name": "I go to \"https://www.ratemyagent.com.au/\"",
             "result": {
               "status": "passed",
-              "duration": 737280
+              "duration": 465920
             },
             "line": 13,
             "match": {
@@ -94,7 +95,7 @@
             "name": "I click on the Search Button",
             "result": {
               "status": "passed",
-              "duration": 1593599
+              "duration": 386987
             },
             "line": 14,
             "match": {
@@ -107,7 +108,7 @@
             "name": "I enter a \"Armadale\" name",
             "result": {
               "status": "passed",
-              "duration": 1056426
+              "duration": 561066
             },
             "line": 15,
             "match": {
@@ -120,7 +121,7 @@
             "name": "I should see the list of \"Armadale\" displayed",
             "result": {
               "status": "passed",
-              "duration": 15787258544
+              "duration": 9825987487
             },
             "line": 16,
             "match": {
