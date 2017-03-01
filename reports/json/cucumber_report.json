@@ -3,6 +3,47 @@
     "description": "  As a user of Rate My Agent\n  I should be able to view Main Page\n  In order to search agents",
     "elements": [
       {
+        "id": "rate-my-agent-main-page;rate-my-agent-main-page",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Rate My Agent Main Page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I go to \"https://www.ratemyagent.com.au/\"",
+            "result": {
+              "status": "passed",
+              "duration": 3080532
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\rateAgentSteps.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see the page title",
+            "result": {
+              "status": "passed",
+              "duration": 12681116723
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\rateAgentSteps.js:15"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RateMyAgent",
+            "line": 6
+          }
+        ],
+        "type": "scenario"
+      },
+      {
         "id": "rate-my-agent-main-page;search-for-location",
         "keyword": "Scenario",
         "line": 19,
@@ -14,7 +55,7 @@
             "name": "I go to \"https://www.ratemyagent.com.au/\"",
             "result": {
               "status": "passed",
-              "duration": 2300159
+              "duration": 578560
             },
             "line": 13,
             "match": {
@@ -27,7 +68,7 @@
             "name": "I click on the Search Button",
             "result": {
               "status": "passed",
-              "duration": 880213
+              "duration": 1129813
             },
             "line": 14,
             "match": {
@@ -40,7 +81,7 @@
             "name": "I enter a \"Berwick\" name",
             "result": {
               "status": "passed",
-              "duration": 455680
+              "duration": 629760
             },
             "line": 15,
             "match": {
@@ -53,7 +94,7 @@
             "name": "I should see the list of \"Berwick\" displayed",
             "result": {
               "status": "passed",
-              "duration": 14301531604
+              "duration": 8047774700
             },
             "line": 16,
             "match": {
