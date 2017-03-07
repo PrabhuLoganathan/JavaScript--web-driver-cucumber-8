@@ -3,10 +3,10 @@
     "description": "  As a user of Tab Com\n  I should be able to view Main Page\n  In order to select a game",
     "elements": [
       {
-        "id": "tab-com-main-page;rate-my-agent-main-page",
+        "id": "tab-com-main-page;login-into-tab-account",
         "keyword": "Scenario",
-        "line": 7,
-        "name": "Rate My Agent Main Page",
+        "line": 17,
+        "name": "Login into Tab Account",
         "steps": [
           {
             "arguments": [],
@@ -14,32 +14,84 @@
             "name": "I go to \"https://www.tab.com.au/\"",
             "result": {
               "status": "passed",
-              "duration": 2489175
+              "duration": 2094081
             },
-            "line": 8,
+            "line": 9,
             "match": {
               "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\rateAgentSteps.js:7"
             }
           },
           {
             "arguments": [],
+            "keyword": "When ",
+            "name": "I click on Login",
+            "result": {
+              "status": "passed",
+              "duration": 1246293
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\tabSteps.js:28"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I enter accountnumber \"2090852\"",
+            "result": {
+              "status": "passed",
+              "duration": 2167895
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\tabSteps.js:34"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I enter password \"Devinder71\"",
+            "result": {
+              "status": "passed",
+              "duration": 725760
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\tabSteps.js:39"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click login button",
+            "result": {
+              "status": "passed",
+              "duration": 428800
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\tabSteps.js:44"
+            }
+          },
+          {
+            "arguments": [],
             "keyword": "Then ",
-            "name": "I should view Bet Slip",
+            "name": "I should see my balance \"$0.00\"",
             "result": {
               "status": "failed",
-              "duration": 11965800092,
-              "error_message": "AssertionError: expected 'Bet Slip' to equal 'Bet Slips'"
+              "duration": 60004549122,
+              "error_message": "function timed out after 60000 milliseconds"
             },
-            "line": 9,
+            "line": 14,
             "match": {
-              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\tabSteps.js:27"
+              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\tabSteps.js:50"
             }
           }
         ],
         "tags": [
           {
-            "name": "@TabMainPage",
-            "line": 6
+            "name": "@TabLogin",
+            "line": 7
           }
         ],
         "type": "scenario"
