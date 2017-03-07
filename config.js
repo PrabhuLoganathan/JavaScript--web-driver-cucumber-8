@@ -41,7 +41,7 @@ exports.config = {
 
     format: ['json:reports/cucumber-test-results.json', 'pretty'],
     //tags: '@AddNewTask,@AngularPage',
-    tags: '@RateMyAgent,@Search',
+    tags: '@TabMainPage',
     format: 'pretty',
     profile: false,
     'no-source': true

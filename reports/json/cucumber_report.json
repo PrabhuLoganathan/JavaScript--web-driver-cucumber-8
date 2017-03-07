@@ -1,9 +1,9 @@
 [
   {
-    "description": "  As a user of Rate My Agent\n  I should be able to view Main Page\n  In order to search agents",
+    "description": "  As a user of Tab Com\n  I should be able to view Main Page\n  In order to select a game",
     "elements": [
       {
-        "id": "rate-my-agent-main-page;rate-my-agent-main-page",
+        "id": "tab-com-main-page;rate-my-agent-main-page",
         "keyword": "Scenario",
         "line": 7,
         "name": "Rate My Agent Main Page",
@@ -11,10 +11,10 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "name": "I go to \"https://www.ratemyagent.com.au/\"",
+            "name": "I go to \"https://www.tab.com.au/\"",
             "result": {
               "status": "passed",
-              "duration": 3103572
+              "duration": 2489175
             },
             "line": 8,
             "match": {
@@ -24,165 +24,32 @@
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "I should see the page title",
+            "name": "I should view Bet Slip",
             "result": {
-              "status": "passed",
-              "duration": 8671427980
+              "status": "failed",
+              "duration": 11965800092,
+              "error_message": "AssertionError: expected 'Bet Slip' to equal 'Bet Slips'"
             },
             "line": 9,
             "match": {
-              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\rateAgentSteps.js:13"
+              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\tabSteps.js:27"
             }
           }
         ],
         "tags": [
           {
-            "name": "@RateMyAgent",
+            "name": "@TabMainPage",
             "line": 6
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "id": "rate-my-agent-main-page;search-for-location",
-        "keyword": "Scenario",
-        "line": 19,
-        "name": "Search for location",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "I go to \"https://www.ratemyagent.com.au/\"",
-            "result": {
-              "status": "passed",
-              "duration": 987306
-            },
-            "line": 13,
-            "match": {
-              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\rateAgentSteps.js:7"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I click on the Search Button",
-            "result": {
-              "status": "passed",
-              "duration": 1825706
-            },
-            "line": 14,
-            "match": {
-              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\rateAgentSteps.js:18"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I enter a \"Clayton\" name",
-            "result": {
-              "status": "passed",
-              "duration": 1351680
-            },
-            "line": 15,
-            "match": {
-              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\rateAgentSteps.js:23"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "I should see the list of \"Clayton\" displayed",
-            "result": {
-              "status": "passed",
-              "duration": 13098274945
-            },
-            "line": 16,
-            "match": {
-              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\rateAgentSteps.js:28"
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Search",
-            "line": 11
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "id": "rate-my-agent-main-page;search-for-location",
-        "keyword": "Scenario",
-        "line": 20,
-        "name": "Search for location",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "I go to \"https://www.ratemyagent.com.au/\"",
-            "result": {
-              "status": "passed",
-              "duration": 4207359
-            },
-            "line": 13,
-            "match": {
-              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\rateAgentSteps.js:7"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I click on the Search Button",
-            "result": {
-              "status": "passed",
-              "duration": 1174613
-            },
-            "line": 14,
-            "match": {
-              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\rateAgentSteps.js:18"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I enter a \"Armadale\" name",
-            "result": {
-              "status": "passed",
-              "duration": 950613
-            },
-            "line": 15,
-            "match": {
-              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\rateAgentSteps.js:23"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "I should see the list of \"Armadale\" displayed",
-            "result": {
-              "status": "passed",
-              "duration": 8209240230
-            },
-            "line": 16,
-            "match": {
-              "location": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\step_definitions\\rateAgentSteps.js:28"
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Search",
-            "line": 11
           }
         ],
         "type": "scenario"
       }
     ],
-    "id": "rate-my-agent-main-page",
+    "id": "tab-com-main-page",
     "keyword": "Feature",
     "line": 1,
-    "name": "Rate My Agent Main Page",
+    "name": "Tab Com Main Page",
     "tags": [],
-    "uri": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\rateagent.feature"
+    "uri": "C:\\Users\\Devinder\\Documents\\protractor-cucumber\\features\\tabMain.feature"
   }
 ]
