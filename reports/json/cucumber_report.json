@@ -14,7 +14,7 @@
             "name": "I go to \"https://www.tab.com.au/\"",
             "result": {
               "status": "passed",
-              "duration": 2094081
+              "duration": 1744211
             },
             "line": 9,
             "match": {
@@ -27,7 +27,7 @@
             "name": "I click on Login",
             "result": {
               "status": "passed",
-              "duration": 1246293
+              "duration": 863572
             },
             "line": 10,
             "match": {
@@ -40,7 +40,7 @@
             "name": "I enter accountnumber \"2090852\"",
             "result": {
               "status": "passed",
-              "duration": 2167895
+              "duration": 1142612
             },
             "line": 11,
             "match": {
@@ -53,7 +53,7 @@
             "name": "I enter password \"Devinder71\"",
             "result": {
               "status": "passed",
-              "duration": 725760
+              "duration": 446293
             },
             "line": 12,
             "match": {
@@ -66,7 +66,7 @@
             "name": "I click login button",
             "result": {
               "status": "passed",
-              "duration": 428800
+              "duration": 387413
             },
             "line": 13,
             "match": {
@@ -78,9 +78,8 @@
             "keyword": "Then ",
             "name": "I should see my balance \"$0.00\"",
             "result": {
-              "status": "failed",
-              "duration": 60004549122,
-              "error_message": "function timed out after 60000 milliseconds"
+              "status": "passed",
+              "duration": 13629114075
             },
             "line": 14,
             "match": {

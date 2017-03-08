@@ -6,7 +6,7 @@ var betSlip = $('.title-heading');
 var login = $('.login-link');
 var accountNumber = $('.login-field-wrapper');
 var password = element(by.name('account_password'));
-var loginButton = $('.common-button');
+var loginButton = element(by.xpath('/html/body/ui-view/main/div[4]/div/div/form/div[4]/button'));
 var balance = element(by.xpath('/html/body/ui-view/header/div/div[3]/div/a[2]'));
 
   this.get = function(site){
@@ -14,12 +14,13 @@ var balance = element(by.xpath('/html/body/ui-view/header/div/div[3]/div/a[2]'))
   };
 
   this.betSlip = function(){
+
+
     return betSlip.getText();
   }
 
   this.Login = function(){
-  
-  login.click();
+    login.click();
   }
 
   this.listGames = function(){
@@ -27,10 +28,7 @@ var balance = element(by.xpath('/html/body/ui-view/header/div/div[3]/div/a[2]'))
   };
 
   this.AccountNumber = function(accountnumber){
-    waitForElementToBePresent(accountNumber);
-    accountNumber.click();
-    accountNumber.sendKeys(accountnumber);
-
+    browser.driver.actions().mouseDown(accountNumber).click().sendKeys(accountnumber).perform();
   };
 
   this.Password = function(userpassword){
